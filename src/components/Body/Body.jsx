@@ -3,6 +3,7 @@ import axios from 'axios';
 import GalleryList from '../GalleryList/GalleryList'; 
 
 
+
 function Body(props){
     const [items, setItems] = useState ([]); 
     useEffect(()=>{

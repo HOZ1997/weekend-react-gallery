@@ -15,14 +15,9 @@ function Body(props){
             setItems(response.data); 
         }).catch((err) =>{
             console.log(err);
-            alert('error getting items)'); 
+            alert('error getting items'); 
         });
-         setItems([{
-             path: 'imagePath',
-             description: 'description',
-             likes: 'likes'
-
-         }]);
+ 
     }
     return(
         <div>

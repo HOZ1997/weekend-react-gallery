@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'; //{useState, useEffect}
+import React, {useState, useEffect} from 'react'; 
 import axios from 'axios'; 
 import GalleryList from '../GalleryList/GalleryList'; 
 
@@ -16,18 +16,18 @@ function Body(props){
             console.log(err);
             alert('error getting items)'); 
         });
-        setItems([{
-            path: 'imagePath',
-            description: 'description',
-            likes: 'likes'
+         setItems([{
+             path: 'imagePath',
+             description: 'description',
+             likes: 'likes'
 
-        }]);
+         }]);
     }
     return(
         <div>
-            <h2>Body</h2> 
-            <GalleryList itemArray={items}/> 
-        
+            
+            <GalleryList items={items}/> 
+    
       </div>
       );
 }

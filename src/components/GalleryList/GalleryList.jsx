@@ -8,9 +8,9 @@ import GalleryItem from '../GalleryItem/GalleryItem';
 
      return(
          <div>
-             <h2>GalleryList</h2>
-            {props.itemArray.map(item =>(<GalleryItem item={item}/>))}
-            
+             
+             {props.items.map(item =>(<GalleryItem item={item}/>))}
+        
          </div>
      );
  }

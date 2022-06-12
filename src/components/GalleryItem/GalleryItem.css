@@ -1,0 +1,10 @@
+.item {
+    border-style: solid;
+    border-color:aqua;
+    border-radius: 9px;
+    border-width: 2px;
+    padding: 9px; 
+    margin: 6px;
+    width: 30%;
+    float: left;
+}

@@ -14,15 +14,13 @@ function GalleryItem(props){
     
     const handleLikeClick =()=>{     
         setClicks(clicks +1); 
-    }
-
     //     axios.put(`/gallery/like/id}`).then((response)=>{
-    //         console.log(response.data); 
-    //     }).catch((err) =>{
-    //         console.log(err);
-    //         alert('error adding like)'); 
-    //     });
-    // }
+    //      console.log(response); 
+    //      }).catch((err) =>{
+    //      console.log(err);
+    //      alert('error adding like)'); 
+    //  });
+ }
  
 
 

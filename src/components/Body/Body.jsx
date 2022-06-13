@@ -22,7 +22,7 @@ function Body(props){
     return(
         <div>
             
-            <GalleryList items={items}/> 
+            <GalleryList items={items} getItems={getItems}/> 
     
       </div>
       );

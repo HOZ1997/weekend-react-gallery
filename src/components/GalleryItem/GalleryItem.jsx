@@ -1,7 +1,7 @@
 //import axios from 'axios';
-import React from 'react';
+//import React from 'react';
 //import ReactDOM from 'react-dom';
-import {useState} from 'react'; 
+import React,{useState} from 'react'; 
 import './GalleryItem.css';
 
 function GalleryItem(props){
@@ -31,9 +31,9 @@ return(
         <div onClick={toggleShow} > 
         {
             show? 
-            <img src={props.item.path}/>
+            <img src={props.items.path}/>
             :
-            <p className='pictureDesription'>{props.item.description}</p>
+            <p className='pictureDesription'>{props.items.description}</p>
 }       
         </div>
         <p><button onClick={handleLikeClick}>Like</button> Likes: {clicks}</p>

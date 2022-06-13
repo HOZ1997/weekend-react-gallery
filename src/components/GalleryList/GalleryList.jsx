@@ -3,14 +3,14 @@ import GalleryItem from '../GalleryItem/GalleryItem';
 
 
 
- function GalleryList(props){
+const GalleryList=(props)=>{
  
 
      return(
-         <div>
-             
-             {props.items.map(item =>(<GalleryItem item={item}/>))}
-        
+         <div className= "GalleryList">
+        <ul>
+             {props.items.map(thisItem =>(<GalleryItem items={thisItem} getItems={props.getItems}/>))}
+        </ul>
          </div>
      );
  }
